@@ -16,6 +16,10 @@ class PagesController extends Controller {
         $this->load('home/main');
     }
 
+    public function cv(){
+        $this->load('cv/main');
+    }
+
     // public function produto()
     // {
     //     $this->load('produto/main');

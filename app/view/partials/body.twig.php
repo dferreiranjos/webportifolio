@@ -11,17 +11,20 @@
     </title>
 </head>
 <body>
-    {% include 'partials/header.twig.php' %}
+    <div class="container">
+        {% include 'partials/header.twig.php' %}
 
-    <div class="main">
-        <div class="topbar">
-            <a href="#" class="logo">Portifólio</a>
-            <div class="toggle">
-                <i class="fa fa-bars" aria-hidden="true"></i>
+        <div class="main">
+            <div class="topbar">
+                <a href="#" class="logo">Portifólio</a>
+                <div class="toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
             </div>
+            {% block body %}{% endblock %}
         </div>
     </div>
 
-    {% block body %}{% endblock %}
+    <script src="{{BASE}}js/scripts.js"></script>
 </body>
 </html>
