@@ -66,10 +66,30 @@
                 </ul>
             </div>
 
+            <div class="contactInfo language">
+                <h3 class="title">Idiomas</h3>
+                <ul>
+                    <li>
+                        <span class="text">Inglês</span>
+                        <span class="percent">
+                            <div style="width:60%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
         </div>
 
 
-        <div class="right_side"></div>
+        <div class="right_side">
+            <div class="about">
+                <h2 class="title2">Sobre</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto veniam fugiat blanditiis dolor! Laboriosam, blanditiis aliquam reiciendis non vero accusamus quidem quibusdam alias perspiciatis esse voluptatum quo quas corrupti eaque!<br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime modi? Numquam debitis rem enim aliquam officiis a est, totam ratione iure quas natus quia, ipsum laborum nam consectetur praesentium.</p>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experiência</h2>
+            </div>
+        </div>
     </div>
 </body>
 </html>

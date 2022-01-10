@@ -83,35 +83,16 @@ body
     font-weight: 300;
 }
 
-.contactInfo{
-    padding-top: 40px;
-}
-
-.contactInfo.education{
-    margin-bottom: 15px;
-}
-
-.contactInfo.education h5{
-    color: #03a9f4;
-    font-weight: 500;
-}
-
-.contactInfo.education h4:nth-child(2){
-    color: #fff;
-    font-weight: 500;
-}
-
-.contactInfo.education h4{
-    color: #fff;
-    font-weight: 300;
-}
-
 .title{
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
+}
+
+.contactInfo{
+    padding-top: 40px;
 }
 
 .contactInfo ul{
@@ -136,6 +117,63 @@ body
     color: #fff;
 }
 
-.container .right_side{
+.contactInfo.education{
+    margin-bottom: 15px;
+}
 
+.contactInfo.education h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.education h4{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.contactInfo.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.container .right_side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.about{
+    margin-top: 50px;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #333;
 }
