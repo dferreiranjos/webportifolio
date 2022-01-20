@@ -81,13 +81,91 @@
 
 
         <div class="right_side">
+            <!-- About -->
             <div class="about">
                 <h2 class="title2">Sobre</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto veniam fugiat blanditiis dolor! Laboriosam, blanditiis aliquam reiciendis non vero accusamus quidem quibusdam alias perspiciatis esse voluptatum quo quas corrupti eaque!<br><br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime modi? Numquam debitis rem enim aliquam officiis a est, totam ratione iure quas natus quia, ipsum laborum nam consectetur praesentium.</p>
             </div>
+            <!-- Experience -->
             <div class="about">
                 <h2 class="title2">Experiência</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2017 - Presente data</h5>
+                        <h5>Cemig XXXXXXXXXXX</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Analista de Sistemas</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime modi? Numquam debitis rem enim aliquam officiis a est.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2016 - 2017</h5>
+                        <h5>Cemig XXXXXXXXXXX</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Analista de Sistemas</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime modi? Numquam debitis rem enim aliquam officiis a est.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2015 - 2016</h5>
+                        <h5>Cemig XXXXXXXXXXX</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Analista de Sistemas</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, maxime modi? Numquam debitis rem enim aliquam officiis a est.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about skills">
+                <h2 class="title2">Competências</h2>
+                <div class="box">
+                    <h4>Html</h4>
+                    <div class="percent">
+                        <div style="width:95%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Css</h4>
+                    <div class="percent">
+                        <div style="width:95%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Javascript</h4>
+                    <div class="percent">
+                        <div style="width:95%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>PHP</h4>
+                    <div class="percent">
+                        <div style="width:95%"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>MySql</h4>
+                    <div class="percent">
+                        <div style="width:95%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about interest">
+                <h2 class="title2">Interesses</h2>
+                <ul>
+                    <li><i class="fa fa-gamepad" aria-hidden="true"></i> Games</li>
+                    <li><i class="fa fa-microphone" aria-hidden="true"></i> Música</li>
+                    <li><i class="fa fa-book" aria-hidden="true"></i> Leitura</li>
+                    <li><i class="fa fa-cutlery" aria-hidden="true"></i> Cozinha</li>
+                </ul>
             </div>
         </div>
     </div>
